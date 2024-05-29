@@ -1,4 +1,4 @@
-# Install libraries.  
+# Install libraries  
 ###### Install the latest ver. of transformer library
 
     pip install git+https://github.com/huggingface/transformers.git
