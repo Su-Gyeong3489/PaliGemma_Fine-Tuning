@@ -1,4 +1,5 @@
-# Install the latest version of the transformers library.
+# Install libraries.  
+###### Install the latest ver. of transformer library
 
     pip install git+https://github.com/huggingface/transformers.git
     #pip install -q -U git+https://github.com/huggingface/transformers.git@paligemma_fix_bf16_multigpu
