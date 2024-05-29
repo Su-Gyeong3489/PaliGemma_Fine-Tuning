@@ -72,9 +72,10 @@ model.print_trainable_parameters()
 #    param.requires_grad = True
 
 
-#QLoRA fine-tuning
+#In case of QLoRA fine-tuning, choose "paged_adamw_8bit" for optimizer.
 #Initialize the Trainer and TrainingArguments
 ##Name "output_dir"
+##For optimizer options, "adamw_hf", "paged_adamw_8bit", "adamw_torch", "adafactor", "adamw_torch_fused", "adafactor_hf" 
 from transformers import TrainingArguments, Trainer
 args=TrainingArguments(
             num_train_epochs=2,
