@@ -18,7 +18,9 @@
 
 **** ** **
 ###### Optimizer Options
-Choose one of them for optimizer and modify Line 90 of paligemma_fine-tuning.py.  
+Choose one of them for optimizer and modify Line 90 of paligemma_fine-tuning.py.
+(In case of QLoRA fine-tuning, choose "paged_adamw_8bit" for optimizer.)  
+
 "adamw_hf", "paged_adamw_8bit", "adamw_torch", "adafactor", "adamw_torch_fused", "adafactor_hf"  
   
 e.g.) optim="paged_adamw_8bit",  
