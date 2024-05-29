@@ -13,6 +13,7 @@
     pip install datasets -q
     pip install peft -q
 
+
 # Fine-tuning
 
     python3 paligemma_fine-tuning.py
@@ -26,6 +27,7 @@ Choose one of them for optimizer and modify Line 90 of paligemma_fine-tuning.py.
   
 e.g.) optim="paged_adamw_8bit",  
 **** ** **
+
     
 # Reference
   <https://huggingface.co/blog/paligemma>
