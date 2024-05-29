@@ -16,6 +16,7 @@ val_ds = ds["test"]
 
 
 #Load the processor, which contains the image processing and tokenization part, and preprocess our dataset.
+##ref) 'image_seq_length=224' means that images would be resized to 224x224 pixels for input into the model.
 from transformers import PaliGemmaProcessor, GemmaTokenizer, SiglipImageProcessor
 model_id = "google/paligemma-3b-pt-224"
 processor = PaliGemmaProcessor(
